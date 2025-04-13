@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author dongzhenxun
  * @date 2025/4/1 下午3:13
- * @description 腾讯面试题：ABCDEFGH8个线程，当ABC中有一个成功后，开始并发执行DEFG，当DEFG全部成功后执行H
+ * @description 群友面腾讯时的面试题：ABCDEFGH8个线程，当ABC中有一个成功后，开始并发执行DEFG，当DEFG全部成功后执行H
  */
 public class SimpleASynchronizedDemo {
 
