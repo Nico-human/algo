@@ -26,7 +26,7 @@ class Solution:
                 ans += 1
             maxx = max(maxx, nums[i])
         return n - ans
-    # Q3: DP，最长递增子序列的变种
+    # Q3: DP， 53.最长子数组和 的变种
     def resultArray(self, nums: List[int], k: int) -> List[int]:
         ans = [0] * k
         prev_counts = [0] * k
@@ -42,5 +42,3 @@ class Solution:
                 ans[r] += current_counts[r]
             prev_counts = current_counts.copy()
         return ans
-    # 没做
-    # def resultArray(self, nums: List[int], k: int, queries: List[List[int]]) -> List[int]:
