@@ -1,4 +1,4 @@
-package cn.dong.exams.interview;
+package cn.dong.job.interview;
 
 /**
  * @author dongzhenxun

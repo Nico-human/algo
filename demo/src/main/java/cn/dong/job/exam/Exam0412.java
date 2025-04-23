@@ -1,4 +1,4 @@
-package cn.dong.exams.test;
+package cn.dong.job.exam;
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Set;
  * @date 2025/4/12 下午8:58
  * @description 汉得信息笔试
  */
-public class Test0412 {
+public class Exam0412 {
 
     // 1
     public static class Main {

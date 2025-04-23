@@ -1,6 +1,4 @@
-package cn.dong.exams.interview;
-
-import java.util.Arrays;
+package cn.dong.job.interview;
 
 class PDD0422 {
     public static void main(String[] args) {
