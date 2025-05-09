@@ -20,7 +20,7 @@ def findCommonResponse(responses: List[List[str]]) -> str:
     ans.sort(key=my_sort)
     return ans[0]
 
-def baseUnitConversions(self, conversions: List[List[int]]) -> List[int]:
+def baseUnitConversions(conversions: List[List[int]]) -> List[int]:
     MOD = 1_000_000_000 + 7
     n = len(conversions)
     ans = [1] * (n + 1)
@@ -30,7 +30,7 @@ def baseUnitConversions(self, conversions: List[List[int]]) -> List[int]:
         ans[b] = num * ans[a] % MOD
     return ans
 
-def countCells(self, grid: List[List[str]], pattern: str) -> int:
+def countCells(grid: List[List[str]], pattern: str) -> int:
     def compute_failure(p):
         fail = [0] * len_p
         j = 0
