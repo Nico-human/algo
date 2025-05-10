@@ -1,4 +1,4 @@
-package cn.dong.job.interview;
+package interview;
 import java.util.*;
 import java.io.*;
 

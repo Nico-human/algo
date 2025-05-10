@@ -1,4 +1,4 @@
-package cn.dong.job.io;
+package io;
 
 import java.io.*;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package cn.dong.job.interview;
+package interview;
 
 class PDD0422 {
     public static void main(String[] args) {

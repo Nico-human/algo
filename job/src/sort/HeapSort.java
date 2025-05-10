@@ -1,4 +1,4 @@
-package cn.dong.job.sort;
+package sort;
 
 /**
  * @author dongzhenxun
