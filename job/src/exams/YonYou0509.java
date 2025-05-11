@@ -1,4 +1,4 @@
-package interview;
+package exams;
 import java.util.*;
 import java.io.*;
 
@@ -46,7 +46,7 @@ public class YonYou0509 {
             for (int i = 0; i < m; i++) {
                 capacity[i] = Integer.parseInt(st.nextToken());
             }
-
+            // int[] mn = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             int[][] meeting = new int[n][3];
             for (int i = 0; i < n; i++) {
                 st = new StringTokenizer(br.readLine());
