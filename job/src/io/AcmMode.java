@@ -23,6 +23,8 @@ public class AcmMode {
         // write code here
         // input example
         String s = in.readLine();
+        // 假如题目没给N
+        // while ((s = in.readLine()) != null && !s.isEmpty()) {}
         int[] arr = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
         // print example
         out.write(1);
