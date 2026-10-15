@@ -1,4 +1,3 @@
-import sys
 
 def solution1(base: int, exp: int) -> None:
     # 快速幂
