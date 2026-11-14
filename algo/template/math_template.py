@@ -10,7 +10,7 @@ def is_prime(x: int) -> bool:
 
 # 质数筛(埃氏筛)
 def preprocess_prime():
-	MX = 1_000_001
+	MX = 1_000_001 # **根据题目数据范围修改**
 	is_prime = [False] * 2 + [True] * (MX - 2) # 0，1不是质数
 	primes = []
 	for i in range(2, MX):
@@ -26,3 +26,13 @@ def gcd(x: int, y: int) -> int:
 # lcm，最小公倍数
 def lcm(x: int, y: int) -> int:
 	return math.lcm(x, y)
+
+# 质因数分解
+def preprocess_prime_factor():
+	MX = 1_000_001 # **根据题目数据范围修改**
+	prime_factors = [[] for _ in range(MX)]
+	for i in range(2, MX):
+		if not prime_factors[i]: # i是质数
+			for j in range(i, MX, i): # i 的倍数 j 有质因子 i
+				prime_factors[j].append(i)
+
